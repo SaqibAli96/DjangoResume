@@ -1,0 +1,111 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interpreted CV</title>
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" />
+    <link
+      href="{% static 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap' %}"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static './style1.css' %}" />
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="{% static './images/DP.png' %}" alt="" />
+            <h3>SaKib Ali Sayyed</h3>
+            <p>AI enthusiast</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="{% static './images/edu2.png' %}" alt="" />
+              <h2>Education</h2>
+            </div>
+            <div class="link">
+              <img src="{% static './images/works.png' %}" alt="" />
+              <h2>Work Experinece </h2>
+            </div>
+            <div class="link">
+              <img src="{% static './images/skill1.png' %}" alt="" />
+              <h2>Skills</h2>
+            </div>
+            <div class="link">
+              <img src="{% static './images/library.png' %}" alt="" />
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="pro">
+          <h2>Email: saquibsaiyyed@
+            gmail.com</h2>
+            <h2>Contact: 9673358072</h2>
+            <h2>Github: /SaquibAli96</h2>
+          </div>
+        </div>
+        <div class="games">
+          <div class="status">
+            <h1>Epitome</h2>
+            <input type="text" />
+          </div>
+          <div class="cards">
+            <div class="card">
+              
+              <div class="card-info">
+                <h2>B.Sc in Chemistry </h2>
+                <p>Completed in 2015</p>
+                <p>From PSGVP Mandal College Shahada</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">80%</h2>
+            </div>
+            <div class="card">
+              
+              <div class="card-info">
+                <h2>Profile : CS Associate</h2>
+                 <p>Domain : Customer Service</p>
+                <p>Org : Amazon.com pune</p>
+                <p>Tenure : 2 years</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage"></h2>
+            </div>
+            <div class="card">
+              
+              <div class="card-info">
+                <p>Skills</p>
+                <p>Python,djago,tkinter</p>
+                <p>* Django - front end and back end</p>
+                <p>* database operations - sqlite3,mysql,postgresql</p>
+                <p>* Bootstrap integration with backend</p>
+                <p>* Hands on: Automation using Selenium and os module</p>
+                <p>* Data operations : Using Numpy,Pandas,Matplotlib</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage"></h2>
+            </div>
+             <div class="card">
+              
+              <div class="card-info">
+                <p>Projects</p>
+                <p>* E-library</p>
+                <p>* A Web App that stores the E-book,download and provide read</p>
+                <p>* Socialite</p>
+                <p>* A social media website to post media and updates</p>
+                <p>* Django resume</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage"></h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </body>
+</html>

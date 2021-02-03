@@ -1,0 +1,101 @@
+body {
+    background: rgb(31, 27, 27);
+    font-family: Consolas;
+}
+
+.header {
+    background: black;
+    padding: 17px;
+    color: white;
+    font-size: 230%;
+    text-indent: 20px;
+}
+
+.p {
+    color: orange;
+}
+
+.a {
+    text-indent: 10px;
+}
+
+.b {
+    text-indent: 30px;
+}
+
+.c {
+    text-indent: 5px;
+}
+
+.d {
+    text-indent: 30px;
+}
+
+.e {
+    text-indent: 50em;
+}
+
+.f {
+    text-indent: 50em;
+    color: brown;
+}
+
+.g {
+    text-indent: 10px;
+}
+
+.h {
+    text-indent: 10px;
+}
+
+.i {
+    text-indent: 50em;
+}
+
+.j {
+    text-indent: 50em;
+}
+
+.k {
+    text-indent: 52em;
+}
+
+.l {
+    text-indent: 50em;
+}
+
+.m {
+    text-indent: 52em;
+}
+
+.n {
+    text-indent: 1em;
+}
+
+.o {
+    text-indent: 3em;
+}
+
+.p {
+    text-indent: 1em;
+}
+
+.r {
+    text-indent: 3em;
+}
+
+.s {
+    text-indent: 5em;
+}
+
+.t {
+    text-indent: 1em;
+}
+
+.u {
+    text-indent: 3em;
+}
+
+.v {
+    text-indent: 5em;
+}
