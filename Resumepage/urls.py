@@ -8,3 +8,6 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('interpreted', views.interpreted, name='interpreted'),
 ] 
+
+
+
